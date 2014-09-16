@@ -1,0 +1,1 @@
+phantomjs\phantomjs.exe jasmine\scripts\phantom-runner.js http://localhost:8080/test/jasmine/SpecRunner.html

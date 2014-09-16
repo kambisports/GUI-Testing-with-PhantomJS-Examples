@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ChuckBob Test</title>
+  <base href="../../">
+
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+
+  <script src="scripts/libs/jquery-2.1.1/jquery.min.js"></script>
+  <script src="scripts/libs/underscore-1.7.0/underscore.min.js"></script>
+  <script src="scripts/libs/backbone-1.1.2/backbone.min.js"></script>
+
+  <script src="scripts/NumericKeyboardView.js"></script>
+  <script src="scripts/AppView.js"></script>
+
+  <script>
+    $(function () {
+      var App = new window.Kambi.AppView();
+      App.render();
+    });
+  </script>
+
+
+  <!-- Include ChuckBob files -->
+  <script src="test/chuckbob/scripts/chuckbob-all.js"></script>
+  <script src="test/chuckbob/spec/chuckbob-spec.js"></script>
+
+</body>
+
+</html>
