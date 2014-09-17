@@ -36,7 +36,7 @@ Spec file: see `test/jasmine/spec/NumericKeyboardViewSpec.js` file
     `phantomjs jasmine/scripts/phantom-runner.js http://localhost:8080/test/jasmine/SpecRunner.html`
 
 
-## GUI Testing Example 1: Chuckbob
+## GUI Testing Example 2: Chuckbob
 
 Spec file: see `test/chuckbob/spec/chuckbob-spec.js` file
 
