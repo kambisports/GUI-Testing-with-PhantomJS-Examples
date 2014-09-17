@@ -27,7 +27,13 @@ Spec file: see `test/jasmine/spec/NumericKeyboardViewSpec.js` file
 
 **Run the test**:
 * in browser: open [http://localhost:8080/test/jasmine/SpecRunner.html](http://localhost:8080/test/jasmine/SpecRunner.html)
-* from terminal using PhantomJS: execute `test/run-jasmine.bat` (Windows) or `test/run-jasmine.sh` (Mac) script
+* in terminal using PhantomJS:
+
+    execute `run-jasmine.bat` (Windows) or `run-jasmine.sh` (Mac) script from the `test` folder,
+    
+    if you are on Linux and have PhantomJS installed you can run the command
+
+    `phantomjs jasmine/scripts/phantom-runner.js http://localhost:8080/test/jasmine/SpecRunner.html`
 
 
 ## GUI Testing Example 1: Chuckbob
@@ -36,4 +42,10 @@ Spec file: see `test/chuckbob/spec/chuckbob-spec.js` file
 
 **Run the test**:
 * in browser: open [http://localhost:8080/test/chuckbob/index-chuckbob.html](http://localhost:8080/test/chuckbob/index-chuckbob.html) and click on _**Run All**_ button
-* from terminal using PhantomJS: execute `test/run-chuckbob.bat` (Windows) or `test/run-chuckbob.sh` (Mac) script
+* in terminal using PhantomJS:
+    
+    execute `run-chuckbob.bat` (Windows) or `run-chuckbob.sh` (Mac) script from the `test` folder,
+
+    if you are on Linux and have PhantomJS installed you can run the command:
+
+    `phantomjs chuckbob/scripts/phantom-runner.js /index-chuckbob.html?phantomjs=true dont-care http://localhost:8080/test/chuckbob`
